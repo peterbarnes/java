@@ -1,0 +1,13 @@
+
+public class HelloWorld {
+
+	public static void main(String [] args){
+		
+		String h = "Hey";
+		int hey = 4;
+		
+		System.out.println(h);
+		
+	}
+	
+}
