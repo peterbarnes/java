@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Counter {
+	
+	public static void main(String [] args){
+		
+		// Declare variables
+		String msg;
+		Scanner sc = new Scanner(System.in);
+		int numVowels = 0;
+		int numConst = 0;
+		
+		// Put user input into msg variable
+		
+		msg = sc.nextLine();
+		
+		for(int c = 0; c < msg.length(); c++) {
+			
+			char letter = msg.charAt(c);
+			
+			if(letter == 'a') {
+				System.out.println("the looper works");
+			}
+			
+		}
+	}
+
+}

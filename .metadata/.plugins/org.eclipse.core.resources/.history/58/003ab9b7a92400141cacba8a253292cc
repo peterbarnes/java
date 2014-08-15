@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Counter {
+	
+	public static void main(String [] args){
+		
+		String msg;
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

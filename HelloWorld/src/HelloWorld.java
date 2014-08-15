@@ -1,9 +1,14 @@
+import java.util.Scanner;
 
 public class HelloWorld {
 
 	public static void main(String [] args){
 		
-		System.out.println("Hello world!");
+		Scanner scan = new Scanner(System.in);
+		
+		String message = scan.nextLine();
+		
+		System.out.println(message);
 		
 	}
 	
